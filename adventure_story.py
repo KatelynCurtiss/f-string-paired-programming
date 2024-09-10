@@ -1,4 +1,4 @@
-# Student name
+# Katelyn Curtiss
 # Current date
 # f-String Adventure Story
 
@@ -21,3 +21,10 @@ Directions:
 
 6. Execute (run) your script in Visual Studio Code and correct any errors.
 '''
+first_name = input('Please enter your first name:\n')
+setting = input('Where does your story take place? (Example: desert)\n')
+item = input('Enter the magic item you found while on your adventure:\n')
+
+print(f'{first_name} was running in the {setting} and found, quite unexpectedly, a magic {item}.')
+
+
